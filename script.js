@@ -10,4 +10,5 @@ let menu = document.querySelector(".menu")
 console.log(menu);
 menu.addEventListener("click", ()=>{
     sidebar.classList.toggle('close');
+    menu.classList.toggle('menu-rotate')
 });

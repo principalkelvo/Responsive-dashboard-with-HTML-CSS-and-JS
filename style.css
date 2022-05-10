@@ -194,7 +194,7 @@
     justify-content: space-between;
     background: #1d1b31;
     padding: 6px 0;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
 }
 .sidebar.close .profile-details{
     width: 78px;
@@ -244,6 +244,8 @@
     height: 100vh;
     left: 260px;
     width: calc(100% - 260px);
+    transition: all .5s ease;
+
 
 }
 
@@ -266,6 +268,10 @@
 .home-section .home-content .menu{
     margin: 0 15px;
     cursor: pointer;
+    transition: all .5s ease;
+}
+.menu-rotate {
+    transform: rotate(-180deg);
 }
 .home-section .home-content .text{
     font-size: 26px;
